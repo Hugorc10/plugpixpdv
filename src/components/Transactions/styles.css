@@ -1,0 +1,43 @@
+.single-client-bottom {
+  margin-top: 30px;
+}
+
+.single-client-bottom .list-bg {
+  margin-top: 10px;
+}
+
+.titular,
+.favorecido,
+.valor {
+  width: 30%;
+}
+
+.veja-mais {
+  width: 10%;
+  /* text-align: right; */
+}
+
+.balances {
+  /* position: absolute; */
+  top: 30px;
+  right: 40px;
+  background-color: #29f5a0;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.balances p {
+  color: #fff;
+  text-shadow: 1px 1px 2px #3b8868;
+  line-height: 27px;
+}
+
+.balances span {
+  color: #fff;
+  font-size: 18px;
+}
+
+.balances .available-balance {
+  font-size: 24px;
+}

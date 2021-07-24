@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "plugpix-pdv",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "!{/bower_components,/src}/**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

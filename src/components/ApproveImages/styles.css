@@ -1,0 +1,96 @@
+.client-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-image {
+  margin: 10px;
+  width: 100%;
+  position: relative;
+}
+.balances-grid .list-header,
+.balances-grid .list-item {
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.list-header,
+.list-item {
+  text-align: center;
+}
+.client-image h3 {
+  text-align: center;
+  margin: 8px 0;
+  position: absolute;
+  z-index: 7;
+  font-size: 15px;
+  top: 23%;
+  width: 100%;
+  transform: translate(-50%);
+  background-color: #bfbfbfe0;
+  border-radius: 4px;
+  width: 80%;
+  left: 50%;
+}
+
+.client-image img {
+  width: 100%;
+}
+.client-image .MuiButton-label {
+  display: flex;
+  flex-direction: column;
+}
+.client-image button {
+  padding: 3px 4px;
+  margin-bottom: 10px;
+}
+
+.client-image button.success {
+  background-color: #28a745;
+}
+
+.client-image button.alert {
+  background-color: #ffc107;
+}
+
+.client-image button.fail {
+  background-color: #dc3545;
+}
+
+.client-image p {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.modal-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.modal-buttons .approve {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.modal-buttons .approve:hover {
+  background-color: #47d768;
+}
+
+.modal-buttons .approve span {
+  color: #fff;
+}
+
+.modal-buttons .reprove {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.modal-buttons .reprove:hover {
+  background-color: #d86973;
+}
+
+.modal-buttons .reprove span {
+  color: #fff;
+}
+button.button-supervisor {
+  margin-right: 15px;
+}

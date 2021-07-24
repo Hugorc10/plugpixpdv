@@ -1,0 +1,6 @@
+.card-image {
+  width: 130px;
+  height: 0;
+  object-fit: cover;
+  padding-bottom: 64%;
+}

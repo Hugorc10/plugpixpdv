@@ -1,0 +1,436 @@
+@font-face {
+  font-family: FranklinGothicDemi;
+  src: url("./assets/fonts/Franklin Gothic Demi Cond Regular.ttf");
+}
+@font-face {
+  font-family: FranklinGothicMedium;
+  src: url("./assets/fonts/Franklin Gothic Medium Cond.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: FranklinGothicMedium;
+  color: #353535;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #1a96d5 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+h1 {
+  color: #0769bc;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.login-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.credentials-card {
+  display: block;
+  margin: auto;
+  width: 50%;
+  max-width: 330px;
+  text-align: center;
+}
+
+.credentials-card form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+
+form input,
+select {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #1a96d5;
+  font-size: 15px;
+  outline: none;
+  &::-webkit-input-placeholder {
+    /* Edge */
+    color: #fff;
+  }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+
+  &::placeholder {
+    color: #fff;
+  }
+  /* Change the white to any color ;) */
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #1a96d5 inset !important;
+  }
+  /*Change text in autofill textbox*/
+  &:-webkit-autofill {
+    -webkit-text-fill-color: #fff !important;
+  }
+}
+.resetPassLink {
+  color: #fff;
+  &:hover {
+    color: #29f5ad;
+    text-decoration: none;
+  }
+}
+
+.credentials-card form button {
+  background-color: #29f5ad;
+  border: 1px solid #29f5ad;
+  /* box-shadow: 0px 0px 0px 1px #0769bc; */
+  padding: 6px 25px;
+  margin-top: 10px;
+  border-radius: 30px;
+  font-weight: 600;
+  color: #0769bc;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s ease all;
+}
+
+.credentials-card form button:hover {
+  background-color: #29f5a0;
+}
+
+.credentials-card form a {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.main-content {
+  height: calc(100% - 200px);
+  // padding: 30px 40px;
+  position: relative;
+}
+
+/* LISTS */
+.list-bg {
+  background: #fff;
+  padding: 10px 10px 5px;
+  border-top: 4px solid #29f5ad;
+  border-radius: 0 0 10px 10px;
+  margin-top: 40px;
+}
+
+.list-header {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1.5fr 1fr 1fr 0.2fr;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 7px 10px;
+  font-weight: 600;
+}
+
+.list-body {
+  list-style: none;
+}
+
+.client-list .view-list {
+  padding: 0;
+}
+.client-list .client {
+  /* width: 8%; */
+  white-space: nowrap;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+}
+
+.list-item {
+  border-top: 1px solid #ececec;
+  padding: 8px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1.4fr 0.9fr 1fr 0.2fr;
+}
+.list-item.nothing-found {
+  justify-content: center;
+  padding: 10px 8px;
+}
+
+.list .situation {
+  text-align: center;
+}
+
+.list .client {
+  text-align: right;
+}
+
+.list-img .image {
+  width: 14%;
+}
+
+.list-img .image img {
+  width: 100%;
+}
+
+.list-img .name {
+  width: 51%;
+  padding-left: 15px;
+}
+
+.list-img .value {
+  width: 27%;
+}
+
+.list-img .see-more {
+  width: 8%;
+  text-align: right;
+}
+
+/* SECTION */
+.section {
+  margin-bottom: 60px;
+}
+
+.section .section-title {
+  font-size: 26px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.section-heading .add-offer {
+  text-transform: initial;
+  line-height: 1;
+  margin-left: 15px;
+}
+
+.section-heading .see-more {
+  position: absolute;
+  right: 0;
+  color: #399ad5;
+}
+
+.section-heading .see-more svg {
+  fill: #399ad5;
+  vertical-align: bottom;
+}
+
+.section .shopping-grid,
+.section .centered-grid {
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-top: 3px solid #29f5ad;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.centered-grid .grid-item {
+  width: 20%;
+}
+
+.grid-item-link {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+}
+
+.card-image {
+  width: 130px;
+  height: 100%;
+}
+
+.centered-grid .card-name {
+  text-align: center;
+}
+
+.single-top {
+  display: flex;
+}
+
+.single-image {
+  width: 40%;
+  max-width: 400px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.single-image img {
+  width: 100%;
+}
+
+.single-info {
+  width: 60%;
+  padding-left: 15px;
+}
+
+.single-price,
+.single-cashback,
+.sing-link,
+.single-plan {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.single-price span,
+.single-cashback span {
+  font-size: 24px;
+}
+
+.single-buttons {
+  margin-top: 70px;
+}
+
+.single-info .edit-btn {
+  background-color: #026ac4;
+  border-color: #0466bb;
+  margin-right: 15px;
+}
+.single-info .edit-btn:hover {
+  background-color: #35a0ff;
+}
+
+.single-info .edit-btn span,
+.single-info .delete-btn span {
+  color: #fff;
+}
+
+.single-info .edit-btn svg,
+.single-info .delete-btn svg {
+  fill: #fff;
+  margin-right: 7px;
+}
+
+.single-info .delete-btn {
+  background-color: #dc3645;
+  border-color: #b92a37;
+}
+.single-info .delete-btn:hover {
+  background-color: #ff828d;
+}
+
+/* Modal */
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: none;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-top: 3px solid #29f5ad;
+  border-radius: 4px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.modal-image img {
+  max-height: 500px;
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.modal-container label {
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+.modal-container input {
+  outline: none;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  color: #5f5f5f;
+}
+
+.modal-container select {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  color: #5f5f5f;
+}
+
+.modal-container button {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-top: 20px;
+  color: #fff;
+  background: #026ac4;
+  border: 1px solid #026ac4;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.modal-container button:hover {
+  background: #399ad5;
+}
+.MuiAlert-message {
+  color: #fff;
+}
+.MuiAlert-root svg {
+  fill: #fff;
+}
+.offer .modal-container input {
+  margin: 0;
+  width: 100%;
+}
+.offer .MuiFormControl-root {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.offer .logo-loja {
+  margin: 0 auto 25px;
+}
+
+.offer .modal-container .MuiFormControl-root button {
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}
+.spinner svg circle {
+  color: #29f5a0;
+}

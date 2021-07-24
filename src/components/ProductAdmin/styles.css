@@ -1,0 +1,52 @@
+.shopping-grid .card .action-button {
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.shopping-grid .card-name {
+  font-size: 22px;
+}
+.MuiAutocomplete-root {
+  width: 100%;
+}
+form .MuiTextField-root {
+  margin-top: 0;
+}
+.product-grid .grid-item {
+  min-width: 33%;
+}
+
+.product-details {
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.product-details strong {
+  font-size: 16px;
+}
+
+.default-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-wallet {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.create-wallet button {
+  margin-top: 10px;
+  background-color: #026ac4;
+  border: 1px solid #0466bb;
+}
+
+.create-wallet button span {
+  color: #fff;
+}
+
+.create-wallet button:hover {
+  background: #35a0ff;
+}

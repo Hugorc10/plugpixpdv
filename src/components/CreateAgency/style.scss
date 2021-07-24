@@ -1,0 +1,51 @@
+body {
+  * {
+    outline: none;
+  }
+}
+.default-modal div:nth-child(3) {
+  width: 100%;
+}
+.new-store {
+  margin: 0 auto;
+  outline: none;
+}
+.modal-container input {
+  padding: 18.5px 14px;
+}
+form {
+  margin-top: 30px;
+  width: 100%;
+
+  .MuiTextField-root {
+    margin-bottom: 10px;
+    .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+      .MuiAutocomplete-endAdornment {
+      width: auto;
+    }
+    div:nth-child(3) {
+      width: auto;
+    }
+    input {
+      margin: 0;
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      margin: 0;
+    }
+  }
+  .submit-button {
+    span {
+      color: #fff;
+    }
+  }
+  .submit-cancel {
+    margin-right: 15px;
+    background-color: #f44336;
+    border-color: #f44336;
+    span {
+      color: #fff;
+    }
+  }
+}

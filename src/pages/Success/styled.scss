@@ -1,0 +1,39 @@
+.qr-reader-success {
+  background-color: #29f5a0;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  text-align: center;
+  max-width: 25%;
+  margin: 0 auto;
+  height: 60%;
+  h3 {
+    color: #0069b8;
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 1em;
+  }
+  small,
+  b {
+    color: #0069b8;
+    line-height: 1.2;
+  }
+}
+button.update {
+  border: none;
+  background-color: #29f5a0;
+  padding: 7px 30px;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #0069b8;
+  transition: ease all 400ms;
+  margin: 30px auto;
+  display: block;
+  &:hover {
+    opacity: 0.8;
+    transform: translateY(-4px);
+  }
+}

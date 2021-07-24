@@ -1,0 +1,25 @@
+.permission, .turn-pj {
+  margin: 0 auto;
+  background-color: #bcbdc0;
+  padding: 0;
+  border: none;
+  h2 {
+    width: 100%;
+    background-color: #026ac4;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 0 12px 12px;
+  }
+}
+
+.permission {
+  .list-item {
+    grid-template-columns: 1.4fr 1.2fr 0.6fr;
+  }
+}
+.turn-pj {
+  .list-item {
+    grid-template-columns: 1.6fr 1fr 0.6fr;
+  }
+}

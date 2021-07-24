@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c047339b.chunk.css",
+    "main.js": "/static/js/main.bf076cf7.chunk.js",
+    "main.js.map": "/static/js/main.bf076cf7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d483f29f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d483f29f.js.map",
+    "static/css/2.3cf5d70f.chunk.css": "/static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.8813e320.chunk.js": "/static/js/2.8813e320.chunk.js",
+    "static/js/2.8813e320.chunk.js.map": "/static/js/2.8813e320.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.49f1fc4cca0990b613bc8e4916457a64.js": "/precache-manifest.49f1fc4cca0990b613bc8e4916457a64.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3cf5d70f.chunk.css.map": "/static/css/2.3cf5d70f.chunk.css.map",
+    "static/css/main.c047339b.chunk.css.map": "/static/css/main.c047339b.chunk.css.map",
+    "static/js/2.8813e320.chunk.js.LICENSE.txt": "/static/js/2.8813e320.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/Franklin Gothic Medium Cond.c379b03b.ttf",
+    "static/media/boleto-icon.png": "/static/media/boleto-icon.22e1d620.png",
+    "static/media/cancel.svg": "/static/media/cancel.b658cf95.svg",
+    "static/media/cashbackdireto.png": "/static/media/cashbackdireto.5d1bd249.png",
+    "static/media/check.svg": "/static/media/check.ea02920c.svg",
+    "static/media/exclamacao.svg": "/static/media/exclamacao.6600a023.svg",
+    "static/media/info.svg": "/static/media/info.74a8ab59.svg",
+    "static/media/logo_cashback.png": "/static/media/logo_cashback.a4e8d408.png",
+    "static/media/logo_pix.png": "/static/media/logo_pix.da525e46.png",
+    "static/media/logo_plugpix.png": "/static/media/logo_plugpix.38e5e686.png",
+    "static/media/logo_plugpix_cashback_azulescuro.png": "/static/media/logo_plugpix_cashback_azulescuro.624be30e.png",
+    "static/media/logo_plugpix_vender.png": "/static/media/logo_plugpix_vender.a4b5c73e.png",
+    "static/media/rotate.svg": "/static/media/rotate.065ea99e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d483f29f.js",
+    "static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.8813e320.chunk.js",
+    "static/css/main.c047339b.chunk.css",
+    "static/js/main.bf076cf7.chunk.js"
+  ]
+}

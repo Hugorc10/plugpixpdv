@@ -1,0 +1,37 @@
+.new-plan {
+  margin: 0 auto;
+  background-color: #bcbdc0;
+  padding: 0;
+  border: none;
+  h2 {
+    width: 100%;
+    background-color: #026ac4;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 0 12px 12px;
+  }
+  .plan-form {
+    margin-top: 0px;
+    font-size: 1.3rem;
+    padding: 15px;
+    label {
+      display: flex;
+      align-items: center;
+      &.number {
+        input {
+          width: 32%;
+        }
+      }
+      input {
+        border: none;
+        width: 50%;
+        margin: 0;
+        padding: 0 15px;
+        border-radius: 0;
+        background-color: #bcbdc0;
+        border-bottom: 1px solid #b1b1b1;
+      }
+    }
+  }
+}
